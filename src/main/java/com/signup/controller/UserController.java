@@ -14,7 +14,7 @@ import com.signup.service.Service_interface;
 import com.signup.service.UserService;
 @RestController
 @RequestMapping("/api")
-@CrossOrigin
+@CrossOrigin(origins = "http://localhost:5173")
 public class UserController 
 {
 	@Autowired

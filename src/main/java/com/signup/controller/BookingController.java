@@ -24,7 +24,7 @@ import com.signup.service.EmailService;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin
+@CrossOrigin(origins = "http://localhost:5173")
 public class BookingController 
 {
 	@Autowired
